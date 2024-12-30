@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Quicksand:wght@300..700&family=Roboto&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+      font-family: "Quicksand", serif;
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    /* Utility classes */
+    .primary-text {
+        color: darkcyan;
+    }
+    
+/* Header Start */
+header {
+
+    height: 100vh;
+    background: url(photo/PM.jpeg) center center/cover no-repeat;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: darkcyan;
+}
+#navbar img {
+    width: 100px;
+    margin-right: 100px;
+    border-radius: 15%;
+}
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+#navbar li {
+    border-radius: 10px;
+}
+#navbar ul li a {
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#navbar ul li a:hover {
+border-bottom: 2px solid #e4b95b;
+
+
+}
+ 
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+
+header .content h1 {
+    font-size: 40px;
+}
+
+
+header .content p {
+    margin: 20px 0 40px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: solid rgb(118, 1, 25);
+    text-align: left;
+    border-radius: 5px;
+    color: rgb(118, 1, 25);
+    margin-bottom: 20px;
+}
+/*تنسيق المربع */
+#box {
+width: 200px;
+padding: 20px;
+border: 2px solid hsl(0, 0%, 80%);
+background-color: rgb(204, 247, 120);
+border-radius: 20%;
+display: flex;
+align-items: center;
+font-size: 12px;
+text-align: center;
+direction: rtl;
+position: fixed;
+top: 100px;
+right: 20px;
+
+}
+#box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: fixed;
+
+}
+#mbox {
+
+width: 200px;
+padding: 20px;
+border: 2px solid hsl(0, 0%, 80%);
+background-color: rgb(204, 247, 120);
+border-radius: 20%;
+display: flex;
+align-items: center;
+font-size: 12px;
+text-align: center;
+direction: rtl;
+position: fixed;
+top: 300px;
+right: 20px;
+}
+#mbox img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;   
+}
+#ex img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Header End */
+/* Gallery start */
+#gallery{
+    background: url(photo/grtttt.jpg) center center/cover no-repeat;
+    padding: 8rem 0 6rem;
+}
+
+#gallery h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#gallery .img-gallery img {
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 1;
+}
+    #gallery .img-gallery img:hover {
+opacity: 1;
+}
+/* Gallery End */
+
+/* Contact Start */
+#contact {
+    padding: 5rem 0;
+    background: #f4f4f4;
+}
+
+#contact .container {
+
+max-width: 900px;
+
+}
+#contact .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact .contact-content .contact-info {
+    width: 50%;
+}
+
+#contact .contact-content .contact-info div {
+    margin: 30px 0;
+    line-height: 1.7;
+}
+
+#contact .contact-content .contact-info h3 {
+    font-size: 28px;
+    color: #383848;
+    margin-bottom: 10px;
+}
+#contact .contact-content .contact-info p {
+color: #9a9a9a;
+}
+#contact .contact-content .contact-info i {
+    color: #e4b95b;
+    margin-right: 5px;
+}
+#contact .contact-content .contact-info a i {
+    color: #fff;
+    background-color: #383848;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#contact .contact-content .contact-info a i:hover {
+    background: #e4b95b;
+    color: #383848;
+}
+form{
+    width: 50%;
+
+}
+form input {
+textarea {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+    background-color: #e3e2dd;
+}
+#contact .btn {
+    background: #e4b95b;
+    color: #fff;
+    cursor: pointer;
+}
+#contact .btn:hover {
+    background-color: #383848;
+
+}
+
+/* Contact End */
